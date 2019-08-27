@@ -2,6 +2,10 @@
 #define GAME_H
 
 #include <QMainWindow>
+#include <QGraphicsScene>
+#include <QWidget>
+#include <QShortcut>
+#include <QTimer>
 
 namespace Ui {
 class Game;
@@ -20,6 +24,9 @@ private slots:
 
 private:
     Ui::Game *ui;
+    QGraphicsScene *scene;
+    QTimer *timer;
+
 };
 
 #endif // GAME_H
