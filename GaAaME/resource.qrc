@@ -2,4 +2,7 @@
     <qresource prefix="/res">
         <file>img/IIINTROOO.gif</file>
     </qresource>
+    <qresource prefix="/">
+        <file>img/PANDA.png</file>
+    </qresource>
 </RCC>
