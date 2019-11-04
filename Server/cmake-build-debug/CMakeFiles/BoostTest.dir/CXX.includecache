@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sancho/CLionProjects/Server/Network.h
+iostream
+-
+boost/asio/basic_socket.hpp
+-
+
+/home/sancho/CLionProjects/Server/main.cpp
+iostream
+-
+Network.h
+/home/sancho/CLionProjects/Server/Network.h
+boost/thread.hpp
+-
+

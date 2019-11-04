@@ -1,0 +1,5 @@
+/home/sancho/Downloads/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/sancho/CLionProjects/Server
+-- Found Boost: /usr/include (found suitable version "1.65.1", minimum required is "1.65.1") found components:  system thread filesystem system chrono date_time atomic 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sancho/CLionProjects/Server/cmake-build-debug
